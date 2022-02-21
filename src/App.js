@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { Sidebar } from "./components/sidebar/Sidebar";
+import { Content } from "./components/content/Content";
+import "./App.css";
+import { Rightbar } from "./components/rightbar/Rightbar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="topbar">
+        <div className="content">
+          <span className="desc">
+            Lorem Ipsum is simply dummy text of the printing
+          </span>
+        </div>
+      </div>
+      <div className="App">
+        <div className="leftsidebar">
+          <Sidebar />
+        </div>
+        <div className="maincontent">
+          <Content />
+        </div>
+        <div className="rightbar">
+          <Rightbar/>
+        </div>
+      </div>
     </div>
   );
 }

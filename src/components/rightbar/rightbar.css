@@ -1,0 +1,59 @@
+.main-rightbar{
+    background-color: black;
+    height: 100%;
+}
+.avaLink{
+    position: absolute;
+    background-color: #353945;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 15px;
+    width: 130px;
+    height: 36px;
+    color: white;
+    padding-bottom: 4px;
+}
+.walletLink{
+    position: absolute;
+    border: 1px solid #3772FF;
+    background: transparent;
+    border-radius: 10px;
+    margin-left: 180px;
+    margin-top: 15px;
+    width: 180px;
+    height: 36px;
+    color: white;
+    padding-bottom: 4px;
+}
+.clink{
+    position: absolute;
+    color:white;
+    margin-left: 65px;
+    margin-top: -24px;
+}
+.customlink{
+    position: absolute;
+    background: #3772FF;
+    border-radius: 10px;
+    color: white;
+    margin-top: 75px;
+    margin-left: 10px;
+    padding: 5px;
+    width: 142px;
+    height: 36px;
+    font-size: 14px;
+}
+.cancel{
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 200px;
+
+}
+.canceltxt{
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 225px;
+    color: white;
+
+
+}
