@@ -5,7 +5,7 @@ import { Rightbar } from "./components/rightbar/Rightbar";
 
 function App() {
   return (
-    <div>
+    <>
       <div className="topbar">
         <div className="content">
           <span className="desc">
@@ -14,17 +14,19 @@ function App() {
         </div>
       </div>
       <div className="App">
-        <div className="leftsidebar">
-          <Sidebar />
+      
+          <div className="leftsidebar">
+            <Sidebar />
+          </div>
+          <div className="maincontent">
+            <Content />
+          </div>
+          <div className="rightbar">
+            <Rightbar />
+          </div>
         </div>
-        <div className="maincontent">
-          <Content />
-        </div>
-        <div className="rightbar">
-          <Rightbar/>
-        </div>
-      </div>
-    </div>
+    
+    </>
   );
 }
 
